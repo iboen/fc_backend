@@ -55,7 +55,7 @@ func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
 	// Set the response status code to indicate that the application is healthy (200 OK)
 	w.WriteHeader(http.StatusOK)
 	// Write a simple message indicating that the application is healthy
-	w.Write([]byte("OK"))
+	w.Write([]byte("Works"))
 }
 
 func main() {
